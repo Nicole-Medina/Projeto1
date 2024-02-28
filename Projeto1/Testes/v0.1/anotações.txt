@@ -1,0 +1,14 @@
+Estrutura esperada:
+
+PRIMEIRA CAMADA                      [ txt1 ]  [ form2 ]
+    
+SEGUNDA CAMADA - PAINEL            [       [bloco]       ]
+
+TERCEIRA CAMADA                      [ form1 ]  [ txt2 ]
+
+
+OBS: txt1 - button="logar"; txt2 - button="cadastrar"
+
+
+A ideia é a cada click num botão (cada txt tem um botão na div), o bloco
+troca entre esq-dir, e inverte a posição dos txt com os forms
