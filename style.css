@@ -17,7 +17,7 @@ body{
     justify-content: center;
     flex-direction: column;   /*  Aqui ele distribui as div's de cima para baixo  */
     background: #203631;
-    font-family: 'Micro 5', serif;
+    font-family: 'Micro 5', serif;    /*   ou 'Jacquarda Bastarda 9', sans-serif;   */
     min-height: 100%;   /* altura */
     margin: 10%;
 }
@@ -141,7 +141,7 @@ button:active{
 
 .container.ativ_painelDir .cadastrar {
     transform: translateX(100%);
-    opacity: 1; 
+    opacity: 1;
     z-index: 3;
 }
 
