@@ -1,0 +1,76 @@
+@keyframes deslizar {
+    from { justify-content: flex-start; }
+    to { justify-content: flex-end; }
+}
+
+
+
+
+body {
+    display: flex;
+    min-height: 100%;
+    margin: 10%;
+    Padding: 0;
+    align-items: center; /*vertical*/
+    justify-content: center; /*horizontal*/
+}
+
+.container {
+    position: relative;
+    border: 1px solid black;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    /*overflow: hidden;*/
+}
+#camada_inicial, #camada_final {
+    width: 800px;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+#camada_inicial {
+    z-index: 1;
+}
+#painel{
+    width: 800px;
+    height: 500px;
+    z-index: 2;
+}
+#camada_final {
+    z-index: 3;
+}
+
+
+.half {
+    width: 400px;
+    height: 500px;
+}
+
+#bloco {
+    width: 400px;
+    height: 500px;
+    justify-content: flex-end;
+    background-color: rgb(0, 134, 0);
+}
+
+#txt1{
+    background-color: rgb(71, 36, 36);
+}
+
+#form2{
+    background-color: rgb(238, 108, 15);
+}
+/*
+#form1{
+    background-color: rgb(255, 103, 133);
+}
+
+#txt2{
+    background-color: rgb(128, 2, 2);
+}
+
+#painel {
+    background-color: transparent;
+}
