@@ -5,14 +5,14 @@ const cadastrarButton = document.getElementById("cdstr");
 
 
 
-
+/* BLOCO MUDADO POR ÚLTIMO, ABAIXO: */
 cadastrarButton.addEventListener('click', function() {
-    main.classList.add('animacao-deslizar_esq')
+    bloco.classList.add('animacao-deslizar_esq')
     console.log("esquerda")
 });
 
 logarButton.addEventListener('click', function() {
-    main.classList.add('animacao-deslizar_dir')
+    bloco.classList.add('animacao-deslizar_dir')
     console.log("direita")
 });
 
